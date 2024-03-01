@@ -1,8 +1,8 @@
-// File: /Users/manuelalingog/Desktop/imaginifyNextJS/src/app/(root)/layout.tsx
-import * as entry from '../../../../src/app/(root)/layout.js'
+// File: /Users/manuelalingog/Desktop/imaginifyNextJS/app/(root)/layout.tsx
+import * as entry from '../../../../app/(root)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/(root)/layout.js')
+type TEntry = typeof import('../../../../app/(root)/layout.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
